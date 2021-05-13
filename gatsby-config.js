@@ -6,8 +6,8 @@ module.exports = {
     {
       resolve: "gatsby-source-shopify",
       options: {
-        shopName: "",
-        accessToken: "",
+        shopName: "manana-surf",
+        accessToken: process.env.API_KEY,
       },
     },
     "gatsby-plugin-styled-components",
